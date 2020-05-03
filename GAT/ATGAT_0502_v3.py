@@ -3,7 +3,7 @@ import numpy as np
 import json
 import tensorflow as tf
 import keras
-from GAT_ori import GraphAttention
+from GAT_directed import GraphAttention
 from keras import backend as K
 from keras.models import Model, load_model
 from keras.layers import Dense, Activation, Input, Reshape, Dropout, Concatenate, LSTM
