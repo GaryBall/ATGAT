@@ -22,7 +22,7 @@ class models:
     def __init__(self):
         pass
 
-    def stdn(self,lstm_seq_len,  N = 307, lstm_out_size = 9,\
+    def atgat(self,lstm_seq_len,  N = 307, lstm_out_size = 9,\
     optimizer = 'adagrad', loss = 'mse', metrics=[]):
         # F = X.shape[1]                # Original feature dimension
         F = 3

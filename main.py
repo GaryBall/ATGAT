@@ -91,7 +91,7 @@ def main():
           'Test accuracy: {}'.format(*eval_results))
     """
 
-    plot_model(model, to_file='h5_models/ATGAT.png')
+    plot_model(model, to_file='h5_models/ATGAT_0502.png')
     model.summary()
     model_save_path = "h5_models/ATGAT_0502.h5"
     # 保存模型
