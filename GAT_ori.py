@@ -10,8 +10,8 @@ class GraphAttention(Layer):
     def __init__(self,
                  F_ = 3,
                  attn_heads=5,
-                 attn_heads_reduction='average',  # {'concat', 'average'}
-                 dropout_rate=0,
+                 attn_heads_reduction='concat',  # {'concat', 'average'}
+                 dropout_rate=0.1,
                  activation='relu',
                  use_bias=True,
                  kernel_initializer='glorot_uniform',

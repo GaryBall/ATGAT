@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97ef1108-626f-4954-ba1f-855b47ce9bcd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GAT/GAT_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/GAT/GAT_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GAT/GAT_withlstm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_models/ATGAT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_models/ATGAT_0502.h5" beforeDir="false" afterPath="$PROJECT_DIR$/h5_models/ATGAT_0502.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAT_ori.py" beforeDir="false" afterPath="$PROJECT_DIR$/GAT_ori.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +14,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ATGAT$test.coverage" NAME="test Coverage Results" MODIFIED="1588485336746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ATGAT$main.coverage" NAME="main Coverage Results" MODIFIED="1588515951053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ATGAT$main.coverage" NAME="main Coverage Results" MODIFIED="1589005870610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="146">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -33,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAT/GAT_loca.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0509_v6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="573">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -69,21 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0502_v3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GAT_ori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="30">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -101,10 +87,15 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/GAT/ATGAT_0427.py" />
-        <option value="$PROJECT_DIR$/GAT/ATGAT_0502_v3.py" />
         <option value="$PROJECT_DIR$/GAT_directed.py" />
         <option value="$PROJECT_DIR$/GAT/GAT_withlstm.py" />
         <option value="$PROJECT_DIR$/GAT/GAT_model.py" />
+        <option value="$PROJECT_DIR$/GAT/ATGAT_0502_v3.py" />
+        <option value="$PROJECT_DIR$/GAT/GAT_loca.py" />
+        <option value="$PROJECT_DIR$/GAT/ATGAT_0504_v4.py" />
+        <option value="$PROJECT_DIR$/GAT_ori.py" />
+        <option value="$PROJECT_DIR$/GAT/ATGAT_0507_v5.py" />
+        <option value="$PROJECT_DIR$/GAT/ATGAT_0509_v6.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -224,16 +215,22 @@
       <workItem from="1588515214273" duration="105000" />
       <workItem from="1588515375340" duration="772000" />
       <workItem from="1588558659683" duration="417000" />
+      <workItem from="1588602903608" duration="884000" />
+      <workItem from="1588646329803" duration="2695000" />
+      <workItem from="1588764171417" duration="1363000" />
+      <workItem from="1588905839646" duration="1361000" />
+      <workItem from="1588995168958" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5127000" />
+    <option name="totallyTimeSpent" value="12914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,23 +300,47 @@
     <entry file="file://$PROJECT_DIR$/h5_models/Attention.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/GAT/GAT_loca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="240">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAT/GAT_loca.py">
+    <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0502_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="1800">
+          <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAT_ori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0507_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0504_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -342,21 +363,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0502_v3.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="146">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAT_ori.py">
+    <entry file="file://$PROJECT_DIR$/GAT/ATGAT_0509_v6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="573">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

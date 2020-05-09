@@ -12,7 +12,7 @@ config.gpu_options.allow_growth = True
 set_session(tf.Session(config=config))
 from keras.callbacks import EarlyStopping, TensorBoard, ModelCheckpoint
 import datetime
-import GAT.ATGAT_0502_v3 as my_model
+import GAT.ATGAT_0509_v6 as my_model
 # import test_models as my_model
 from keras.optimizers import Adam
 from utils import load_data, preprocess_features
@@ -32,7 +32,7 @@ def main():
     """
     learning_rate = 0.1  # Learning rate for Adam
 
-    model = modeler.atgat(lstm_seq_len=5, N=170)
+    model = modeler.atgat(lstm_seq_len=5, N=170, lstm_out_size=9)
 
     optimizer = Adam(lr=learning_rate)
     model.compile(optimizer=optimizer,
@@ -91,9 +91,9 @@ def main():
           'Test accuracy: {}'.format(*eval_results))
     """
 
-    plot_model(model, to_file='h5_models/ATGAT_0502.png')
+    plot_model(model, to_file='h5_models/ATGAT_0507.png')
     model.summary()
-    model_save_path = "h5_models/ATGAT_0502.h5"
+    model_save_path = "h5_models/ATGAT_0507.h5"
     # 保存模型
     model.save(model_save_path)
     # 删除当前已存在的模型
